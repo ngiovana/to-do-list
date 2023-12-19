@@ -1,0 +1,13 @@
+.wrapper {
+  max-width: 56rem; /* 1120/16 (1120 é a largura total da sidebar + espaço + feed e 16 é o padrão do rem) */
+  margin: -1rem auto; /* auto nas laterais faz com que fique centralizado */
+  padding: 0 10rem; /* para caso dê zoom o conteúdo não fique colado nas laterais da tela */
+
+  display: block;
+}
+
+.background {
+  background: var(--gray-500);
+  height: 100vh;
+  width: 100vw;
+}
